@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
 }
-<<<<<<< HEAD
+
 .body-modal {
     background-color: #0009;
     overflow: hidden;
@@ -42,15 +42,13 @@ body {
     from{transform: scale(1);}
     to{transform: scale(0.5);}
 }
-=======
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+
 .container {
     width: 100%;
     height: 80%;
     position: relative;
     background-size: cover;
     background-clip: content-box;
-<<<<<<< HEAD
     background-origin: content-box;
     background-position: center;
     animation: unshrink 2s 1;
@@ -59,9 +57,7 @@ body {
 @keyframes unshrink {
     from{transform: scale(0.5);}
     to{transform: scale(1);}
-=======
     background-position: center;
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
 }
 
 .sub_viewer {
@@ -100,10 +96,7 @@ body {
 }
 #activity {
     margin-left: 21px;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
 }
 #time {
     text-align: center;
