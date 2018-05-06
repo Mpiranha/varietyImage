@@ -126,11 +126,9 @@ let langSelect = document.querySelector("#lang-select");
 let langOptions = document.querySelector(".lang-opt");
 let langUs = document.querySelector("#us");
 let langNig = document.querySelector("#nig");
-<<<<<<< HEAD
 let activity = document.querySelector("#activity"); 
 let headTop = document.querySelector('.header');
-=======
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+
 //--- End of variable declaration
 
 
@@ -138,11 +136,9 @@ let headTop = document.querySelector('.header');
 
 (function (){
 
-<<<<<<< HEAD
     setWidth();
 
-=======
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+
     // -- Setting on click handler on nessary elements
     showImageHistory.onclick = function() {
         if (smallImageCont.style.display == 'flex'){
@@ -200,7 +196,6 @@ let headTop = document.querySelector('.header');
         }
     };
 
-<<<<<<< HEAD
     activity.addEventListener('click', function(){
         if ( (largeImageCont.getAttribute('class') == 'container-modal') &&
          (document.body.getAttribute('class') == 'body-modal') ){
@@ -217,8 +212,7 @@ let headTop = document.querySelector('.header');
          }
     });
 
-=======
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+
     //-- End of the onclick set up
 
 
@@ -228,20 +222,18 @@ let headTop = document.querySelector('.header');
         *set the image sub view element to browser height/5
         *set the width to the browser width.
     */
-<<<<<<< HEAD
+        
    function setWidth(){
-=======
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+
     document.body.style.minWidth = window.innerWidth + 'px'; 
     document.body.style.minHeight = window.innerHeight + 'px';
     largeImageCont.style.minWidth = window.innerWidth + 'px';
     largeImageCont.style.minHeight = window.innerHeight + 'px';
     smallImageCont.style.height = Math.floor(window.innerHeight / 5) + 'px';
     smallImageCont.style.width = window.innerWidth + 'px';
-<<<<<<< HEAD
+
    }
-=======
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+
     //-- End of page Setup
 
     /*Loops that:
@@ -313,7 +305,7 @@ function nextImg() {
 
 //--- Beginning of function prevImag()
 function prevImg() {
-<<<<<<< HEAD
+
     if (imageIndex == 0 || imageIndex == 1){
         imageIndex = 0;
         alert('can not go any further');
@@ -321,9 +313,9 @@ function prevImg() {
     imageIndex -= 2;
     imageIcon.src = imageHistory[imageIndex];
     }
-=======
+
     imageIndex -= 2;
     imageIcon.src = imageHistory[imageIndex];
->>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+
 }
 //--- End of function 
