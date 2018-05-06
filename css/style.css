@@ -1,0 +1,248 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+<<<<<<< HEAD
+.body-modal {
+    background-color: #0009;
+    overflow: hidden;
+}
+.container-modal {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-clip: content-box;
+    background-origin: content-box;
+    background-position: center;
+    animation: shrink 2s 1;
+    transform: scale(0.5);
+}
+.container-modal:hover {
+    border: 8px solid #3434dc;
+    border-radius: 10px;
+}
+
+.container-modal:hover:before {
+    content: "\00D7";
+    font-weight: bold;
+    border: 8px solid #3434dc;
+    font-size: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: -25px;
+    color: #3434dc;
+    background-color: white;
+}
+
+@keyframes shrink {
+    from{transform: scale(1);}
+    to{transform: scale(0.5);}
+}
+=======
+>>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+.container {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    background-size: cover;
+    background-clip: content-box;
+<<<<<<< HEAD
+    background-origin: content-box;
+    background-position: center;
+    animation: unshrink 2s 1;
+}
+
+@keyframes unshrink {
+    from{transform: scale(0.5);}
+    to{transform: scale(1);}
+=======
+    background-position: center;
+>>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+}
+
+.sub_viewer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-x: scroll;
+    display: none;
+    flex-direction: row;
+    
+}
+.sub_viewer img {
+    cursor: pointer;
+}
+
+.header {
+    background-color: #0009;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    font-size: 0.8em;
+    color: white;
+    margin-top: 0px;
+    font-family: garuda;
+    width: 170px;
+    height: 15px;
+}
+#activity {
+    margin-left: 21px;
+<<<<<<< HEAD
+    cursor: pointer;
+=======
+>>>>>>> cf1438e178394ed20711feec6a09b26d3f20ec79
+}
+#time {
+    text-align: center;
+    margin-left: 190px;
+    
+}
+#small-img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.right-bar {
+    width: 343px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8em;
+    font-family: garuda;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.lang-cont, .img-opt-cont {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-right: -45px; 
+}
+#speaker-icon, #bat-icon, .bat-level {
+    width: 14px;
+    height: 14px;
+    margin-top: 6px;
+    margin-right: -135px;
+}
+.bat-level{
+    margin-top: 3px;
+    width: 14px;
+    height: 14px;
+    margin-right: 25px;
+}
+
+
+#lang-select::before {
+    content: " ";
+    position: absolute;
+    border-color: white transparent transparent transparent;
+    border-width: 5px;
+    border-style: solid;
+    top: 11px;
+    right: -8px;
+}
+#lang-select {
+    cursor: pointer;
+}
+.img-opt ul{
+    margin: 0;
+    padding: 0;
+}
+
+.img-opt ul li {
+    list-style-type: none;
+    cursor: pointer;
+    width: 110px;
+    margin-left: -35px;
+    padding-left: 35px;
+    list-style-position: inside;
+}
+
+.img-opt ul li:hover {
+    list-style-type: initial;
+    background-color: #695b5b;
+}
+
+.img-opt {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background-color: #423c3c;
+    width: 110px;
+    padding-left: 35px;
+    height: 92px;
+    padding-top: 19px;
+    display: none;
+    animation: peek 1s 1;
+}
+@keyframes peek {
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+.img-opt::before {
+    content: " ";
+    position: absolute;
+    border-color: transparent transparent #423c3c transparent;
+    border-width: 10px;
+    border-style: solid;
+    top: -20px;
+    right: 125px
+}
+
+.lang-cont ul{
+    margin: 0;
+    padding: 0;
+}
+
+.lang-cont ul li {
+    list-style-type: none;
+    cursor: pointer;
+    width: 140px;
+    margin-left: -35px;
+    padding-left: 35px;
+    list-style-position: inside;
+}
+
+.lang-opt::before {
+    content: " ";
+    position: absolute;
+    border-color: transparent transparent #423c3c transparent;
+    border-width: 11px;
+    border-style: solid;
+    top: -22px;
+    left: 0;
+}
+
+.lang-opt {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background-color: #423c3c;
+    width: 150px;
+    padding-left: 35px;
+    height: 92px;
+    padding-top: 19px;
+    display: none;
+    animation: peek 1s 1;
+}
+
+.lang-opt ul li:hover {
+    list-style-type: initial;
+    background-color: #695b5b;
+}
