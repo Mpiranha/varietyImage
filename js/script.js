@@ -231,6 +231,7 @@ let headTop = document.querySelector('.header');
     largeImageCont.style.minHeight = window.innerHeight + 'px';
     smallImageCont.style.height = Math.floor(window.innerHeight / 5) + 'px';
     smallImageCont.style.width = window.innerWidth + 'px';
+    headTop.style.width = window.innerWidth + 'px';
 
    }
 
